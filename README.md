@@ -2,6 +2,10 @@
 
 Academic IDE is a high-fidelity, interactive environment designed for students and researchers of **Theory of Automata and Formal Languages (TAFL)**. It provides a robust suite of tools for exploring Regular Expressions (RE), visualizing Finite Automata, and verifying formal language properties with step-by-step algorithmic transparency.
 
+<p align="center">
+	<img src="./preview/reExplorer.png" alt="Academic IDE Hero Preview" width="900" />
+</p>
+
 
 ## 🚀 Features
 
@@ -26,6 +30,20 @@ Convert Regular Expressions into visual automata using industry-standard algorit
 ### 5. AI-Powered Documentation
 - Integrated documentation system powered by **Gemini AI** to help students understand complex TAFL concepts like Kleene Star, Union, and Concatenation.
 
+## 📸 Screenshots
+
+### Thompson Graph
+<img src="./preview/thompsonGraph.png" alt="Thompson Graph" width="900" />
+
+### String Generation
+<img src="./preview/stringGeneration.png" alt="String Generation" width="900" />
+
+### Verifier
+<img src="./preview/verifier.png" alt="Verifier" width="900" />
+
+### Verifier Result
+<img src="./preview/verifierResult.png" alt="Verifier Result" width="900" />
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 19, TypeScript, Vite
@@ -48,3 +66,4 @@ src/
 │   ├── REEngine.ts              # Core automata algorithms
 │   └── ConstructionEngine.ts    # Step-by-step generator logic
 └── App.tsx                      # Main layout and navigation
+```
